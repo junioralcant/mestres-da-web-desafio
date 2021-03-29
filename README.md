@@ -5,7 +5,7 @@ O Projeto é uma API escrita em node.js para controle de estoque de um e-commerc
 ### Instalação:
 Use o comando `yarn install` para instalar as dependências
 
-Use o comando `yarn sequelize db:create` após configurar usuário e senha do banco de dados no arquivo de configuração  `database.js`
+Use o comando `yarn sequelize db:create` após configurar usuário e senha do banco de dados no arquivo de configuração  `database.js`, o banco de dados utilizado é o postgresql
 
 Use o comando `yarn sequelize db:migrate` para criar as tabelas no banco de dados
 
